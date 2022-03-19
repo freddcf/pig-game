@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 * {
   margin: 0;
@@ -12,11 +15,11 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Righteous', sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #bf2e34 0%, #753682 60%);
+  background-image: linear-gradient(to top left, #006494 0%, #1b98e0 60%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +32,8 @@ main {
   height: 60rem;
   background-color: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(200px);
-  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   border-radius: 9px;
   overflow: hidden;
   display: flex;
@@ -123,7 +127,6 @@ main {
 }
 
 .btn::first-letter {
-  font-size: 2.4rem;
   display: inline-block;
   margin-right: 0.7rem;
 }
@@ -147,12 +150,19 @@ main {
   outline: none;
 }
 
+.dice-reload,
+.dice-hold {
+  width: 1.8rem;
+}
+.dice-roll {
+  width: 2.8rem;
+}
+
 .cube {
   position: absolute;
   left: 50%;
   top: 30%;
   transform: translateX(-50%);
-  /* height: 10rem; */
   width: 100px;
   height: 100px;
 }
@@ -213,14 +223,17 @@ img {
 }
 
 .rolled {
-  animation: landingDice 1.2s ease;
+  animation: landingDice 0.8s ease;
 }
 
 @keyframes landingDice {
   0% {
     top: 30%;
   }
-  20%,
+  15% {
+    top: 25%;
+  }
+  35%,
   80% {
     top: 35%;
   }
