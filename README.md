@@ -7,8 +7,8 @@ Jogo do dado desenvolvido com ***JavaScript***
   <br>
 	<a href="#question-sobre">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#rocket-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#clubs-gameplay">Gaming</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#balance_scale-license">License</a>	
+	<a href="#exclamation-regras">Rules</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;	
+	<a href="#clubs-gameplay">Gaming</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;	
 </p>
 
 <p align="center">
@@ -19,11 +19,16 @@ Jogo do dado desenvolvido com ***JavaScript***
 ## :question: Sobre:
 Este jogo foi desenvolvido com o apoio dos conteúdos do curso de JavaScript de Jonas Schmedtmann disponível na Udemy.
 
+* Pig game ou jogo do dado é um jogo de turnos para se jogar em dupla.
+
 ## :rocket: Tecnologias:
 
 * HTML
 * CSS
 * JS
+
+## :exclamation: Regras:
+O jogo é dividido em turnos, o jogador que estiver apto a rolar o dado ficará com a tela em destaque(mais claro), e o outro fora de destaque(mais escuro). Os jogador que estiver em destaque poderá rolar o dado quantas vezes quiser, contanto que não role 1, que caracteriza a passagem forçada de turno(perdeu a vez). O jogador também terá a opção segurar a quantidade acumulada de valores rolados, somando dessa forma a seu score. Uma vez que um jogador atinja 100 pontos o jogo termina, podendo também ser reiniciado.
 
 ## :clubs: Gameplay:
 
