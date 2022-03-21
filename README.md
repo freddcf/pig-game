@@ -32,8 +32,6 @@ O jogo é dividido em turnos, o jogador que estiver apto a rolar o dado ficará 
 
 ## :clubs: Gameplay:
 
-<img height="450px" alt="screenshot-preview" src="https://github.com/freddcf/pig-game/blob/main/img/previewFiles/previewGif.gif?raw=true">
-
 -> Este jogo não requer instalações. Para jogar em sua máquina siga um dos passos a seguir:
 
 1 - Demo online
